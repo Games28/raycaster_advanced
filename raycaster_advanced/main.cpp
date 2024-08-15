@@ -14,7 +14,7 @@ using namespace std;
 
 //place the example code below here:
 
-int main(int, char *[])
+int main(int argc, char *argv[])
 {
 	screen(256, 256, 0, "Small Test Script");
 	for (int x = 0; x < w; x++)
