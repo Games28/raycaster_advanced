@@ -1783,7 +1783,7 @@ namespace QuickCG
 
 			std::vector<unsigned char> png, image;
 			loadFile(png, "charset.png");
-
+			
 			unsigned long w, h;
 			decodePNG(image, w, h, &png[0], png.size());
 			for (size_t c = 0; c < 256; c++)

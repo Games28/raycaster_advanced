@@ -523,31 +523,31 @@ int main(int /*argc*/, char */*argv*/[])
 
   //load some textures
   unsigned long tw, th, error = 0;
-  error |= loadImage(texture[0], tw, th, "pics/wall1.png");
-  error |= loadImage(texture[1], tw, th, "pics/wall2.png");
-  error |= loadImage(texture[2], tw, th, "pics/wall3.png");
-  error |= loadImage(texture[3], tw, th, "pics/tile1.png");
-  error |= loadImage(texture[4], tw, th, "pics/tile2.png");
-  error |= loadImage(texture[5], tw, th, "pics/tile3.png");
-  error |= loadImage(texture[6], tw, th, "pics/tile4.png");
-  error |= loadImage(texture[7], tw, th, "pics/tile5.png");
-  error |= loadImage(texture[8], tw, th, "pics/door.png");
-  error |= loadImage(texture[9], tw, th, "pics/entry.png");
-  error |= loadImage(texture[10], tw, th, "pics/gate.png");
-  error |= loadImage(texture[11], tw, th, "pics/glass.png");
-  error |= loadImage(texture[12], tw, th, "pics/glass-break.png");
-  error |= loadImage(texture[13], tw, th, "pics/secret.png");
-  error |= loadImage(texture[14], tw, th, "pics/wall5.png");
-  error |= loadImage(texture[15], tw, th, "pics/wall6.png");
-  if(error) { std::cout << "error loading images" << std::endl; return 1; }
+  error |= loadImage(texture[0], tw, th, "wall1.png");
+  error |= loadImage(texture[1], tw, th, "wall1.png");
+  error |= loadImage(texture[2], tw, th, "wall1.png");
+  error |= loadImage(texture[3], tw, th, "tile1.png");
+  error |= loadImage(texture[4], tw, th, "tile1.png");
+  error |= loadImage(texture[5], tw, th, "tile1.png");
+  error |= loadImage(texture[6], tw, th, "tile1.png");
+  error |= loadImage(texture[7], tw, th, "tile1.png");
+  error |= loadImage(texture[8], tw, th, "door.png");
+  error |= loadImage(texture[9], tw, th, "entry.png");
+  error |= loadImage(texture[10], tw, th, "gate.png");
+  error |= loadImage(texture[11], tw, th, "glass.png");
+  error |= loadImage(texture[12], tw, th, "glass.png");
+  error |= loadImage(texture[13], tw, th, "wall1.png");
+  error |= loadImage(texture[14], tw, th, "wall1.png");
+  error |= loadImage(texture[15], tw, th, "wall1.png");
+  if(error) { std::cout << "error loading images1" << std::endl; return 1; }
 
   //load some sprite textures
-  error |= loadImage(texture[20], tw, th, "pics/altar.png");
-  error |= loadImage(texture[21], tw, th, "pics/fountain.png");
-  error |= loadImage(texture[22], tw, th, "pics/statue.png");
-  if(error) { std::cout << "error loading images" << std::endl; return 1; }
+  error |= loadImage(texture[20], tw, th, "altar.png");
+  error |= loadImage(texture[21], tw, th, "fountain.png");
+  error |= loadImage(texture[22], tw, th, "statue.png");
+  if(error) { std::cout << "error loading images2" << std::endl; return 1; }
 #if SKYBOX
-  error |= loadImage(skybox, tw, th, "pics/skybox.png");
+  error |= loadImage(skybox, tw, th, "skybox.png");
   if(error) { std::cout << "error loading skybox" << std::endl; return 1; }
 #endif
 

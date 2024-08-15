@@ -143,7 +143,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="quickcg.cpp" />
     <ClCompile Include="raycaster.cpp" />
   </ItemGroup>
